@@ -3,6 +3,7 @@ body {
 }
 .social {
   background-color: white;
+  margin: 0 auto;
 }
 .social h1 {
   color: grey;
