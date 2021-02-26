@@ -3,6 +3,7 @@ body {
 }
 .social {
   background-color: #5e5e5e;
+  background-size: auto;
   text-align: center;
 }
 .social h1 {
