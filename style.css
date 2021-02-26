@@ -1,3 +1,14 @@
 body {
   background-color: black;
 }
+.social {
+  background-color: white;
+}
+.social h1 {
+  color: grey;
+  font-family: verdana;
+  font-weight: bold;
+}
+.social p {
+  color: black;
+}
