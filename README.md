@@ -1,3 +1,4 @@
 URLS:
-https://hueowo.site/\n
+https://hueowo.site/
+\n
 https://rawr-uwu.xyz/
