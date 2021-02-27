@@ -92,4 +92,5 @@ body {
 .src-code a {
   color: white;
   font-family: verdana;
+  text-decoration: none;
 }
