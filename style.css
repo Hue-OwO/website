@@ -89,3 +89,7 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.src-code a {
+  color: white;
+  font-family: verdana;
+}
