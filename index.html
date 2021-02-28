@@ -1,45 +1,38 @@
 <!DOCTYPE HTML>
+
 <html>
-<head>
-  <title>🦊</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="boop" />
-  <link rel="stylesheet" href="style.css">
-</head>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
 <body>
-  <div class="about">
-  <h1>About</h1>
-  <p>
-  A 17 Year Old who shouldn't be trusted with anything, Learning Swift 5.3 (Playgrounds), HTML and JavaScript
-  </p>
+  <header>
+	<div class="header">
+  <a href="https://youtu.be/dQw4w9WgXcQ" class="active">OwO What's This?</a>
+  <div class="header-right">
+	<a onclick="about()">About</a>
+	<a onclick="social()">social</a>
+	<a onclick="photography()">Photography</a>
   </div>
- </div>
- <div class="Photography">
- <h1>Photography</h1>
- <p>Equipment I use:<br>
- Camera: Nikon D5100<br>
- Lens: Nikkor AF-S 18-55mm f/3.5-5.6
- </p>
- <br>
- <button id="photosButton">photos</button>
- </div>
- <div class="social">
- <h1>Social</h1>
-   <p>
-    Discord: Hue#6763<br>
-    Twitter: @HueOwO<br>
-    Telegram: @HueUwU
-   </p>
- </div>
-<div class="src-code">
-  <a href="https://github.com/Hue-OwO/website">Github</a>
-  </div>
- <div id="images" class="imgs">
- <div class="img-content">
-    <span class="close">&times;</span>
-    <p></p>
-  </div>
- </div>
-</body>
-<script src="JavaScript.js"></script>
+</div>
+  </header>
+  <div id="about" style="padding-left:20px">
+  <h2>About me</h2>
+  <p>A 17 Year Old who shouldn't be trusted with anything, Learning Swift 5.3 (Playgrounds), HTML and JavaScript</p>
+</div>
+<div id="contact" style="padding-left:20px; display:none">
+<h2>Contact</h2>
+<p>
+Discord: Hue#6763<br>
+Telegram: @HueUwU<br>
+Twitter: @HueOwO
+</p>
+</div>
+<div id="photography" style="padding-left:20px; display:none">
+<h2>Equipment</h2>
+<p>Camera: Nikon D5100<br>
+Lens: Nikkor AF-S 18-55mm f/3.5-5.6</p>
+<h2>Photos</h2>
+</div>
+  </body>
 </html>
