@@ -28,6 +28,17 @@ function about() {
     ph.style.display = "block";
   }
   }
+function server() {
+  var ab = document.getElementById("about");
+  var co = document.getElementById("contact");
+  var ph = document.getElementById("photography");
+  var dis = document.getElementById("");
+  if (ph.style.display === "none") {
+    ab.style.display = "none";
+    co.style.display = "none";
+    ph.style.display = "block";
+  }
+  }
 function rick() {
 window.location = "https://youtu.be/dQw4w9WgXcQ";
 }
