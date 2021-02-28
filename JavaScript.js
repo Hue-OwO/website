@@ -28,3 +28,6 @@ function about() {
     ph.style.display = "block";
   }
   }
+function rick() {
+window.location = "https://youtu.be/dQw4w9WgXcQ";
+}
