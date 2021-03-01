@@ -11,9 +11,6 @@ h2 {
 p {
     color: lightgrey;
 }
-header {
-position: fixed;
-}
 .header {
   overflow: hidden;
   background-color: #303030;
