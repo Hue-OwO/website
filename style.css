@@ -11,6 +11,10 @@ h2 {
 p {
     color: lightgrey;
 }
+header {
+position: sticky;
+  top: 0;
+}
 .header {
   overflow: hidden;
   background-color: #303030;
