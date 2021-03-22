@@ -6,7 +6,7 @@
   </head>
     <script>
     function yiffed(){
-    var yif = location.search
+    var yif = window.location.pathname.split('/');
    document.getElementById("yifid").innerHTML = yif;
     }
   </script>
