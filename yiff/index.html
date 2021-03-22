@@ -4,13 +4,25 @@
     <meta charset=utf-8>
     <title>yiff</title>
   </head>
+    
     <script>
     function yiffed(){
     var yif = window.location.search.split('?');
    document.getElementById("yifid").innerHTML = yif;
     }
   </script>
+    
   <body onload="yiffed()">
     <h1>You've yiffed <span id="yifid"></span></h1>
     </body>
+    <style>
+      body {
+        background-color: #2b2b2b;
+      }
+      h1 {
+        font-family: verdana;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+      }
  </html>
