@@ -31,12 +31,10 @@ body {
      padding: 20px;
      text-align: center;
      font-family: verdana;
+     margin-bottom: 10px;
 }
 #main p {
     font-weight: normal;
-}
-#main span {
-    padding: 70px 0;
 }
 #main img {
     width: 40px;
