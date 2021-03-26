@@ -42,4 +42,21 @@ body {
 #main .contactinfo span {
     display: inline-block;
 }
+@media (prefers-color-scheme: dark) {
+#main {
+     background-color: rgb(255,255,255);
+     background-color: rgba(255,255,255, 0.4);
+     color: black;
+     font-weight: bold;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+     width: 60%;
+     padding: 20px;
+     text-align: center;
+     font-family: verdana;
+}
+}
 /* ----- */
