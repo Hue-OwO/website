@@ -37,8 +37,9 @@ body {
     font-weight: normal;
 }
 #main .contactinfo {
-        align-items:center;
-	
+        align-items: center;
+	display: flex;
+	float: middle;
 }
 #main img {
     width: 40px;
