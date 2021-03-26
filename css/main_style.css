@@ -39,7 +39,7 @@ body {
 #main .contactinfo {
         align-items: center;
 	display: flex;
-	float: middle;
+	text-align: center;
 }
 #main img {
     width: 40px;
