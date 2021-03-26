@@ -39,7 +39,8 @@ body {
     width: 40px;
     height: 40px;
 }
-#main .contactinfo span {
-    display: inline-block;
+#main .contactinfo {
+    display: flex;
+    align-items:center;
 }
 /* ----- */
