@@ -42,7 +42,7 @@ body {
 #main .contactinfo span {
     display: inline-block;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 #main {
      background-color: rgb(255,255,255);
      background-color: rgba(255,255,255, 0.4);
