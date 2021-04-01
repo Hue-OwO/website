@@ -39,7 +39,8 @@ body {
 #main .contactinfo {
         align-items: center;
 	display: flex;
-	justify-content: center;	
+	justify-content: center;
+	margin: auto;
 }
 #main img {
     width: 40px;
