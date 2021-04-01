@@ -6,4 +6,3 @@ https://rawr-uwu.xyz/
 https://yiffs.live/
 
 <hr>
-<iframe src="https://rawr-uwu.xyz/"></iframe>
