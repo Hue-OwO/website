@@ -1,10 +1,10 @@
+
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  font-family: verdana;
-  height: 100%;
-  margin: 0;
-  background-attachment: fixed;
-	
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	font-family: verdana;
+	 height: 100%;
+    margin: 0;
+    background-attachment: fixed;
 }
 #main {
 	position: absolute;
@@ -13,8 +13,8 @@ body {
 	transform: translateY(-50%);
 	top: 45%;
 	left: 0;
-	display: flex;
 	width: 750px;
+	display: flex;
 	overflow: hidden;
 	background-opacity: 0.4;
     -webkit-animation-name: run;
@@ -54,3 +54,16 @@ background-color: #8e44ad;
 	text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+#main {
+width: 100%;
+}
+#main .butts {
+    width: 100%;
+    position: absolute;
+}
+#main #content {
+margin: auto;
+margin-top: 75px;
+}
+}
