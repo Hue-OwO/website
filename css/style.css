@@ -1,48 +1,65 @@
-function Aboutbutton() {
-	var about = document.getElementById("about");
-	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
-	var stats = document.getElementById("stats");
-	if (about.style.display === "none") {
-	  about.style.display = "block";
-	  media.style.display = "none";
-	  proj.style.display = "none";
-	  stats.style.display = "none";
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	font-family: verdana;
+}
+#main {
+	position: absolute;
+	margin: 0;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 45%;
+	left: 0;
+	display: flex;
+	width: 500%;
+	overflow: hidden;
+	background-opacity: 0.4;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 1s;
+}     
+@-webkit-keyframes run {
+    0% { opacity: 0;}
+    50% {opacity: 0.2;}
+    100% {opacity: 0.4;}
+}
+#main .butts {
+text-align: center;
+background-color: rgba(0, 0, 0, 0.5);
+width: 120px;
+z-index: -1;
+}
+#main .butts button {
+background-color: #9b59b6;
+border: none;
+height: 45px;
+width: 100px;
+margin: 10px;
+font-size: 18px;
+color: white;
+}
+#main .butts button:active {
+background-color: #8e44ad;
+}
+#main #content {
+   display: relative;
+   background-color: rgba(255, 255, 255, 0.5);
+   width: 500px;
+   text-align: center;
+   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+#main #content h2 {
+	text-align: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
 	}
-  }
-  function mediabutton() {
-	var about = document.getElementById("about");
-	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
-	var stats = document.getElementById("stats");
-	if (media.style.display === "none") {
-	  about.style.display = "none";
-	  media.style.display = "block";
-	  proj.style.display = "none";
-	  stats.style.display = "none";
+	50% {
+		background-position: 100% 50%;
 	}
-  }
-  function projbutton() {
-	var about = document.getElementById("about");
-	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
-	var stats = document.getElementById("stats");
-	if (proj.style.display === "none") {
-	  about.style.display = "none";
-	  media.style.display = "none";
-	  proj.style.display = "block";
-	  stats.style.display = "none";
+	100% {
+		background-position: 0% 50%;
 	}
-  }
-  function statsbutton() {
-	var about = document.getElementById("about");
-	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
-	var stats = document.getElementById("stats");
-	if (stats.style.display === "none") {
-	  about.style.display = "none";
-	  media.style.display = "none";
-	  proj.style.display = "none";
-	  stats.style.display = "block";
-	}
-  }
+}}
