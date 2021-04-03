@@ -37,6 +37,7 @@ z-index: -1;
 }
 #main .butts button {
 background-color: #57BDD4;
+color: black;
 border: none;
 height: 45px;
 width: 100px;
