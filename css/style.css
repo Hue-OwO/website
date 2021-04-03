@@ -15,7 +15,8 @@ body {
 	overflow: hidden;
 	background-opacity: 0.1;
 	border-radius:10px;
-	box-shadow: 0 7px 0 -10px rgba(0,0,0,0.5);
+	padding: 40px;
+	box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
     -webkit-animation-name: run;
     -webkit-animation-duration: 1s;
 } 
