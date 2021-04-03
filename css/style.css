@@ -5,7 +5,7 @@ body {
 	 height: 100%;
          margin: 0;
          background-attachment: fixed;
-	 vertical-align: middle;
+	 horizontal-align: middle;
 }
 #main {
 	position: absolute;
