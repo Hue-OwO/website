@@ -24,9 +24,9 @@ body {
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }     
 @-webkit-keyframes run {
-    0% { opacity: 0;}
-    50% {opacity: 0.2;}
-    100% {opacity: 0.6;}
+    0% { background-opacity: 0;}
+    50% {background-opacity: 0.2;}
+    100% {background-opacity: 0.6;}
 }
 #main .butts {
 text-align: center;
