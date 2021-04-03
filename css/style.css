@@ -22,7 +22,10 @@ body {
     -webkit-animation-duration: 1s;
     color: white;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
-}     
+} 
+#main a {
+	color: lightblue;
+}
 @-webkit-keyframes run {
     0% { background-opacity: 0;}
     50% {background-opacity: 0.2;}
