@@ -2,6 +2,7 @@
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	font-family: verdana;
+	color: white;
 	text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 	 height: 100%;
          margin: 0;
