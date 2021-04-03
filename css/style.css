@@ -31,6 +31,7 @@ body {
 text-align: center;
 background-color: rgba(0, 0, 0, 0.5);
 width: 120px;
+z-index: -1;
 }
 #main .butts button {
 background-color: #9b59b6;
@@ -48,7 +49,7 @@ background-color: #8e44ad;
    display: relative;
    width: 500px;
    text-align: center;
-   z-index: 2;
+   z-index: 1;
 }
 
 }
