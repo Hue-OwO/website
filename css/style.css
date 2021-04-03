@@ -17,7 +17,7 @@ body {
 	width: 750px;
 	display: flex;
 	overflow: hidden;
-	background-opacity: 0.4;
+	background-opacity: 0.6;
     -webkit-animation-name: run;
     -webkit-animation-duration: 1s;
     color: white;
