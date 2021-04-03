@@ -49,6 +49,7 @@ background-color: #8e44ad;
    display: relative;
    width: 500px;
    text-align: center;
+   z-index: 2;
 }
 
 }
