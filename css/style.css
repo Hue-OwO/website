@@ -14,18 +14,12 @@ body {
 	width: 750px;
 	display: flex;
 	overflow: hidden;
-	background-opacity: 0.3;
 	border-radius:10px;
 	box-shadow: 0px 0px 10px 10px black;
 }
 #main a {
 	color: blue;
 	text-decoration: none;
-}
-@-webkit-keyframes run {
-    0% { background-opacity: 0;}
-    50% {background-opacity: 0.2;}
-    100% {background-opacity: 0.6;}
 }
 #main .butts {
 text-align: center;
@@ -48,6 +42,7 @@ background-color: #8e44ad;
 #main #content {
    display: relative;
    background-color: white;
+   background-opacity: 0.3;
    width: 500px;
    text-align: center;
    z-index: 1;
