@@ -24,7 +24,8 @@ body {
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 } 
 #main a {
-	color: lightblue;
+	color: blue;
+	text-decoration: none;
 }
 @-webkit-keyframes run {
     0% { background-opacity: 0;}
