@@ -9,11 +9,11 @@ body {
 }
 #main {
 	position: absolute;
-	margin: 0;
-	-ms-transform: translateY(-25%);
-	transform: translateY(-25%);
-	-ms-transform: translateX(25%);
-	transform: translateX(25%);
+	margin: 0 auto;
+        right: 0px;
+        left: 0px;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	top: 45%;
 	width: 750px;
 	display: flex;
