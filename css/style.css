@@ -5,9 +5,9 @@ body {
 	 height: 100%;
          margin: 0;
          background-attachment: fixed;
+	 vertical-align: middle;
 }
 #main {
-	align-content: center;
 	position: absolute;
 	margin: 0;
 	-ms-transform: translateY(-50%);
