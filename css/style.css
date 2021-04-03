@@ -9,7 +9,7 @@ body {
 #main {
 	position: absolute;
 	margin: 0 auto;
-        horizontal-align: middle;
+        top: 50px;
         right: 0px;
         left: 0px;
 	width: 750px;
