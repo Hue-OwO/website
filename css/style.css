@@ -36,7 +36,7 @@ width: 120px;
 z-index: -1;
 }
 #main .butts button {
-background-color: #9b59b6;
+background-color: #57BDD4;
 border: none;
 height: 45px;
 width: 100px;
@@ -44,9 +44,6 @@ margin: 10px;
 font-size: 18px;
 color: white;
 border-radius: 2px;
-}
-#main .butts button:active {
-background-color: #8e44ad;
 }
 #main #content {
    display: relative;
