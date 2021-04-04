@@ -35,18 +35,18 @@ width: 120px;
 z-index: -1;
 }
 #main .butts button {
-background-color: #963C34;
+background-color: #22214B;
 color: white;
 border: none;
 height: 45px;
 width: 100px;
 margin: 10px;
 font-size: 18px;
-border-radius: 2px;
+border-radius: 3px;
 }
 #main #content {
    display: relative;
-   background-color: rgba(255, 255, 255, 0.4);
+   background-color: rgba(255, 255, 255, 0.3);
    width: 700px;
    text-align: center;
 }
