@@ -48,8 +48,8 @@ border-radius: 3px;
    display: relative;
    background-color: rgba(200, 200, 200, 0.3);
    width: 700px;
-   text-align: center;
-   vertical-align: center;
+   display: inline-block;
+   vertical-align: middle;
    color: white;
 }
 #main #content h2 {
