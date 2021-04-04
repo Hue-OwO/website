@@ -29,14 +29,46 @@ body {
     100% {background-opacity: 0.6;}
 }
 #main .butts {
-position: absolute;
+body {
+	background:  linear-gradient(to top left, #EC1C4B 3%, #A6206A 82%);
+	font-family: verdana;
+	 height: 100%;
+         margin: 0;
+         background-attachment: fixed;
+}
+#main {
+	position: absolute;
+	top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+	width: auto;
+	display: flex;
+	overflow: hidden;
+	border-radius:13px;
+	padding: auto;
+	box-shadow: 0 5px 10px rgba(0,0,0,.05), 0 15px 40px rgba(0,0,0,.2);
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 1s;
+} 
+#main a {
+	color: blue;
+	text-decoration: none;
+}
+@-webkit-keyframes run {
+    0% { background-opacity: 0;}
+    50% {background-opacity: 0.2;}
+    100% {background-opacity: 0.6;}
+}
+#main .butts {
+   width: 100%;
 text-align: center;
-background-color: rgba(0, 0, 0, 0.5);
-width: 120px;
+background-color: rgba(0,0,0,0.4);
 z-index: -1;
+    position: absolute;
 }
 #main .butts button {
-background-color: #43438F;
+position: relative;
+background-color: #A6206A;
 color: white;
 border: none;
 height: 45px;
@@ -46,13 +78,14 @@ font-size: 18px;
 border-radius: 3px;
 }
 #main #content {
-   display: relative;
-   background-color: rgba(200, 200, 200, 0.3);
+   background-color: rgba(175,175,175,0.3);
    width: 700px;
+   height: 200px;
    text-align: center;
    vertical-align: middle;
    color: white;
-   margin-top: 75px;
+  margin: auto;
+margin-top: 73px;
 }
 #main #content h2 {
 	text-align: center;
