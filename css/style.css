@@ -21,7 +21,7 @@ body {
 } 
 #main h2 {
 background-color: rgba(255, 255, 255, 0.3);
-height: 100%;
+height: auto;
 color: white;
 }
 #main a {
