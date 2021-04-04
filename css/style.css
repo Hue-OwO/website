@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(to top left, #59bfd4 3%, #404f89 82%);
+	background: linear-gradient(to top left, #587AA8 3%, #744798 82%);
 	font-family: verdana;
 	 height: 100%;
          margin: 0;
@@ -13,7 +13,6 @@ body {
 	width: 750px;
 	display: flex;
 	overflow: hidden;
-	background-opacity: 0.1;
 	border-radius:10px;
 	padding: auto;
 	box-shadow: 0 5px 10px rgba(0,0,0,.05), 0 15px 40px rgba(0,0,0,.2);
@@ -36,8 +35,8 @@ width: 120px;
 z-index: -1;
 }
 #main .butts button {
-background-color: #57BDD4;
-color: black;
+background-color: #963C34;
+color: white;
 border: none;
 height: 45px;
 width: 100px;
@@ -47,7 +46,7 @@ border-radius: 2px;
 }
 #main #content {
    display: relative;
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color: rgba(255, 255, 255, 0.4);
    width: 700px;
    text-align: center;
 }
