@@ -29,6 +29,7 @@ body {
     100% {background-opacity: 0.6;}
 }
 #main .butts {
+position: absolute;
 text-align: center;
 background-color: rgba(0, 0, 0, 0.5);
 width: 120px;
@@ -51,6 +52,7 @@ border-radius: 3px;
    text-align: center;
    vertical-align: middle;
    color: white;
+   margin-top: 75px;
 }
 #main #content h2 {
 	text-align: center;
