@@ -19,6 +19,9 @@ body {
     -webkit-animation-name: run;
     -webkit-animation-duration: 1s;
 } 
+#main h2 {
+background-color: black;
+color: white;
 #main a {
 	color: blue;
 	text-decoration: none;
