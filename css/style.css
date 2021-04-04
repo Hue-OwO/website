@@ -44,10 +44,13 @@ margin: 10px;
 font-size: 18px;
 border-radius: 3px;
 }
+#main span {
+top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 #main #content {
    display: relative;
-   top: 50%;
-   transform: translate(-50%, -50%);
    background-color: rgba(240, 240, 240, 0.3);
    width: 700px;
    text-align: center;
