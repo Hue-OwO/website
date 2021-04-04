@@ -44,16 +44,12 @@ margin: 10px;
 font-size: 18px;
 border-radius: 3px;
 }
-#main span {
-top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 #main #content {
    display: relative;
    background-color: rgba(200, 200, 200, 0.3);
    width: 700px;
    text-align: center;
+   vertical-align: center;
    color: white;
 }
 #main #content h2 {
