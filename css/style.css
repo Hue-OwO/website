@@ -1,35 +1,4 @@
 body {
-	background: linear-gradient(to top left, #587AA8 3%, #744798 82%);
-	font-family: verdana;
-	 height: 100%;
-         margin: 0;
-         background-attachment: fixed;
-}
-#main {
-	position: absolute;
-	top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-	width: 750px;
-	display: flex;
-	overflow: hidden;
-	border-radius:10px;
-	padding: auto;
-	box-shadow: 0 5px 10px rgba(0,0,0,.05), 0 15px 40px rgba(0,0,0,.2);
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 1s;
-} 
-#main a {
-	color: blue;
-	text-decoration: none;
-}
-@-webkit-keyframes run {
-    0% { background-opacity: 0;}
-    50% {background-opacity: 0.2;}
-    100% {background-opacity: 0.6;}
-}
-#main .butts {
-body {
 	background:  linear-gradient(to top left, #EC1C4B 3%, #A6206A 82%);
 	font-family: verdana;
 	 height: 100%;
