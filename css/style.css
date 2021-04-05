@@ -1,5 +1,5 @@
 body {
-	background:  linear-gradient(to top left, #EC1C4B 3%, #A6206A 82%);
+	background:  linear-gradient(to top left, #734b6d 3%, #42275a 82%);
 	font-family: verdana;
 	 height: 100%;
          margin: 0;
@@ -37,7 +37,7 @@ z-index: -1;
 }
 #main .butts button {
 position: relative;
-background-color: #A6206A;
+background-color: #42275a;
 color: white;
 border: none;
 height: 45px;
