@@ -1,7 +1,7 @@
 function Aboutbutton() {
 	var about = document.getElementById("about");
 	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
+	var proj = document.getElementById("domains");
 	var stats = document.getElementById("stats");
 	if (about.style.display === "none") {
 	  about.style.display = "block";
@@ -13,7 +13,7 @@ function Aboutbutton() {
   function mediabutton() {
 	var about = document.getElementById("about");
 	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
+	var proj = document.getElementById("domains");
 	var stats = document.getElementById("stats");
 	if (media.style.display === "none") {
 	  about.style.display = "none";
@@ -22,10 +22,10 @@ function Aboutbutton() {
 	  stats.style.display = "none";
 	}
   }
-  function projbutton() {
+  function domainbutton() {
 	var about = document.getElementById("about");
 	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
+	var proj = document.getElementById("domains");
 	var stats = document.getElementById("stats");
 	if (proj.style.display === "none") {
 	  about.style.display = "none";
@@ -37,7 +37,7 @@ function Aboutbutton() {
   function statsbutton() {
 	var about = document.getElementById("about");
 	var media = document.getElementById("media");
-	var proj = document.getElementById("projects");
+	var proj = document.getElementById("domains");
 	var stats = document.getElementById("stats");
 	if (stats.style.display === "none") {
 	  about.style.display = "none";
